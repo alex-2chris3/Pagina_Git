@@ -9,7 +9,7 @@ df = pd.DataFrame({
     "Ventas": [100, 120, 90, 140, 110]
 })
 
-st.write("Datos de prueba:")
+st.write("Datos:")
 st.dataframe(df)
 
 fig = px.bar(df, x="Días", y="Ventas", title="Ventas Semanales")
